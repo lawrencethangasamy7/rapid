@@ -1,0 +1,432 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:sans-serif;
+}
+.containor{
+	width:100%;
+}
+.totel{
+	display:flex;
+    align-items:center;
+	background-color:#e0f7fa;
+   justify-content:space-around;
+}
+h1{
+	color:#0c1759;
+	}
+.nav a{
+	text-decoration:none;
+	padding:20px;
+}
+.nav{
+	display:inline-block;
+}
+
+.nav i{
+	color:blue;
+	
+}
+
+
+.first{
+	
+	background-image: url(../image/intro-bg.jpg);
+}
+.containor1{
+	margin:0 auto;
+	width:85%;
+}
+.row{
+	display:flex;
+	
+}
+.col{
+	width:40%;
+	align-self:center;
+}
+.col h1{
+	font-size:50px;
+	color:#0c1759;
+	padding-bottom:35px;
+}
+.button{
+	text-decoration:none;
+	color:white;
+	padding:10px;
+	border-radius: 5px;
+	background-color:#9494e2;
+}
+.busin{
+	color:blue;
+}
+.col1{
+	width:60%;	
+}
+.col1 img{
+	width:100%;
+}
+
+
+#about{
+	margin-top:50px;
+	margin-bottom:50px
+}
+.aboutcontainor{
+	width:85%;
+	margin:0 auto;
+}
+.aboutrow{
+	display:flex;
+}
+.aboutcol{
+	width:40%;
+}
+.aboutcol1 p{
+	padding-top:20px;
+}
+.aboutcol1 h1{
+	color:#091fa1;
+}
+.aboutcol1 h4{
+	padding-top:20px;
+	color:#091fa1;
+}
+.aboutcol1 i{
+	color:#9292e9;
+	padding-right:5px;
+}
+.aboutcol1{
+	width:60%;
+	font-size:20px;
+}
+
+
+.totelser{
+	background-color:white;
+}
+.sercontainor{
+	margin:0 auto;
+	width:85%;
+}
+.sercontainor1{
+	padding-top:30px;
+}
+.serrow{
+	text-align:center;	
+}
+.serrow h2{
+	padding:10px 0px;
+}
+.servrow1{
+	display:flex;
+	flex-wrap:wrap;
+}
+.servcol{
+	width:33.3%;
+	text-align:center;
+	padding:50px;
+	box-shadow:0 0 30px #8080801f;
+}
+.serbox{
+	 
+}
+.sercard{
+	padding:10px;
+}
+.serbox h2{
+	line-height:50px;
+}
+.serbox p{
+	line-height:30px;
+}
+.serbox i{
+	border-radius:50%;
+	width:40px;
+	height:40px;
+	font-size:50px;
+	color:blue;
+}
+
+
+
+
+.section3{
+	padding-top:50px;
+	padding-bottom:70px;
+}
+.sertcontainer2{
+	width:85%;
+	margin:0 auto;
+}
+.sertwohead{
+	text-align:center;
+}
+
+.para10{
+	padding-bottom:20px;
+}
+.paratree{
+	font-size:18px;
+}
+.serrow2{
+	display:flex;
+	gap:20px;
+}
+.sercol2{
+	width:50%;
+}
+.sercol2 img{
+	width:100%;
+}
+.sercol3{
+	width:50%;
+}
+.icontree{
+	padding-top:40px;
+	display:flex;
+	gap:2%;
+	color:#1b1b8d;
+}
+.icontree p{
+	line-height:20px;
+}
+.treeicon{
+	color:red;
+	  align-self:center;
+	  font-size:50px;
+}
+.sertwohead{
+	padding:20px;
+}
+
+
+
+
+.serviceback{
+	padding-top:30px;
+	padding-bottom:50px;
+}
+.containorback{
+	width:85%;
+	margin:0 auto;
+}
+.rowback{
+		display:flex;
+
+}
+.colback h1{
+	font-size:40px;
+}
+.colback{
+	text-align:center;
+	width:25%;
+}
+
+
+
+.call{
+	padding:10px;
+	border:5px white solid;
+	border-radius:5px;
+	text-decoration:none;
+	color:#ffff;
+}
+.call:hover{
+	background-color:blue;
+}
+.fiveseci{
+	
+	background-color:#121246;
+}
+.containor5{
+	width:90%;
+	margin:0 auto;
+}
+.row5{
+	display:flex;
+	padding:40px;
+	gap:10%;
+}
+
+.col5{
+	width:80%;
+	text-align:left;
+	color:white;
+}
+.col5 h1{
+	color:white;
+	line-height:50px;
+}
+.col6{
+	width:20%;
+	color:white;
+	align-self:center;
+}
+
+
+
+.appsec{
+	padding-top:50px;
+	padding-bottom:50px;
+}
+.appcontainor{
+	width:85%;
+	margin:0 auto;
+}
+.approw{
+	display:flex;
+	gap:10px;
+}
+.appcol1{
+	width:50%;
+}
+.appcol1 img{
+	width:100%;
+}
+.appcol2{
+	width:50%;
+}
+
+.appcol2 p{
+	padding-top:20px;
+	font-size:20px;
+}
+
+
+
+
+.phonesec{
+	padding-top:50px;
+	padding-bottom:50px;
+}
+.phonecontainor{
+	width:85%;
+	margin:0 auto;
+}
+.phonerow{
+	display:flex;
+	gap:10%;
+}
+.phonecol{
+	width:50%;
+}
+.phonecol1{
+	width:50%;
+}
+.phonecol1 img{
+	width:100%;
+}
+.phonecol p{
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+
+.portsec{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.portcontainor{
+	width:85%;
+	margin:0 auto;
+}
+.portcontant{
+	text-align:center;
+	padding:20px;
+	font-size:25px;
+}
+
+.portcontant a{
+	text-decoration:none;
+	padding:25px;
+	line-height:40px;
+}
+.portcontant a:hover{
+	color:blue;
+}
+.portrow{
+	display:flex;
+	flex-wrap:wrap;
+}
+.portcol{
+	width:33.3%;
+	
+}
+.portcol img{
+	width:100%;
+	padding:15px;
+	
+}
+.portapp {
+    position: absolute;
+    top: 40%;
+    left: 34%;
+	opacity:0;
+	color:white;
+    text-align: center;
+	
+}
+.portapp i{
+	   width:40px;
+	   height:40px;
+	   border-radius:50px;
+	   background-color:blue;
+	   color:white;
+       display:inline-flex;
+	   align-items:center;
+	   justify-content:center;
+}
+	   
+.porttotel{
+	position:relative;
+}
+.porttotel:hover .portapp{
+	opacity:1;
+}
+.testsec{
+	padding-bottom:50px;
+	padding-top:50px;
+}
+
+.testcontainor{
+	width:70%;
+	margin:0 auto;
+}
+.testhead{
+	text-align:center;
+}
+.testrow{
+	width:100%;
+	display:flex;
+	gap:5%;
+}
+.testcol{
+	width:10%;
+}
+.testcol1{
+	width:80%;
+	font-size:20px;
+   align-self:center;
+	line-height:20px;
+}
+.testcol1 p{
+	padding-top:10px;
+}
+	
+.testcol img{
+	border-radius:50%;
+	width:150px;
+	height:150px;
+	text-align:center;
+	
+}
+.spantest{
+	border-radius:50%;
+	padding:30px;
+	color:blue;
+}
+	
+	
+	
